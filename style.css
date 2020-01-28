@@ -157,6 +157,13 @@ input:focus{
     color:white;
 }
 
+@media screen and (max-width:780px){
+    .container{
+        background-size: 240%;
+        background-repeat: repeat-y;
+    }
+}
+
 @media screen and (max-width: 455px){
     
     *{
@@ -164,6 +171,7 @@ input:focus{
         box-shadow: none;
     }
     .main{
+        margin-top:80px;
         max-width: 250px; 
         -webkit-backdrop-filter:none;
         backdrop-filter: none;
