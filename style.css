@@ -159,6 +159,7 @@ input:focus{
 
 @media screen and (max-width:780px){
     .container{
+        transition: 0.4s;
         background-size: 240%;
         background-repeat: repeat-y;
     }
